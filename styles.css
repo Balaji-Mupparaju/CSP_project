@@ -1,0 +1,56 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.background {
+    background-image: url('first.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align content to the top */
+    padding-top: 50px; /* Adjust this padding to move content vertically */
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px; /* Set a max width for the overlay */
+    width: 100%; /* Ensure it doesn’t exceed max-width */
+    margin: 0 auto; /* Center it horizontally */
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #f0f0f0;
+    margin: 0; /* Remove default margin */
+}
+
+.login-container {
+    margin-top: 20px; /* Space between the title and buttons */
+}
+
+.login-button {
+    background-color: #4CAF50; /* Green buttons */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-button:hover {
+    background-color: #45a049;
+    transform: translateY(-3px);
+}
